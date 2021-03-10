@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="dc451922-8e86-4fa4-9ac9-595158122ea0" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Pickle/data.Pickle" beforeDir="false" afterPath="$PROJECT_DIR$/Data/Pickle/data.Pickle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Pickle/faces.Pickle" beforeDir="false" afterPath="$PROJECT_DIR$/Data/Pickle/faces.Pickle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Pickle/self._train_embs.npy" beforeDir="false" afterPath="$PROJECT_DIR$/Data/Pickle/self._train_embs.npy" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FaceDetector/FaceDetector.py" beforeDir="false" afterPath="$PROJECT_DIR$/FaceDetector/FaceDetector.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/IMAGE_DB_RAW/COCO/COCO_01.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IMAGE_DB_RAW/COCO/COCO_02.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IMAGE_DB_RAW/COCO/COCO_03.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IMAGE_DB_RAW/COCO/COCO_04.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IMAGE_DB_RAW/COCO/COCO_05.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IMAGE_DB_RAW/COCO/COCO_06.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IMAGE_DB_RAW/COCO/COCO_07.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IMAGE_DB_RAW/COCO/COCO_08.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IMAGE_DB_RAW/COCO/COCO_09.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IMAGE_DB_RAW/INCONNU/VLCC_Single_Facial_Kit_Amazon_Benefit_01_-_Copy.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IMAGE_DB_RAW/INCONNU/atikh-bana-2c0midsqke0-unsplash.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IMAGE_DB_RAW/INCONNU/facial-philadelphia.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IMAGE_DB_RAW/INCONNU/home.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IMAGE_DB_RAW/INCONNU/test01.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IMAGE_DB_RAW/JOJO/jojo1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IMAGE_DB_RAW/JOJO/jojo2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IMAGE_DB_RAW/JOJO/jojo3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IMAGE_DB_RAW/JOJO/jojo4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IMAGE_DB_RAW/JOJO/jojo5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IMAGE_DB_RAW/JOJO/jojo6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IMAGE_DB_RAW/JOJO/jojo7.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IMAGE_TO_DETECT/banque.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IMAGE_TO_DETECT/banque2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IMAGE_TO_DETECT/banque3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Recognizer/MotorRecognizer.py" beforeDir="false" afterPath="$PROJECT_DIR$/Recognizer/MotorRecognizer.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Recognizer/Recognizer.py" beforeDir="false" afterPath="$PROJECT_DIR$/Recognizer/Recognizer.py" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1SOSXpkm9U2VC8fpBEQ2oy7u7pO" />
+  <component name="PropertiesComponent">
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="FaceRecognizion" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.main" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="dc451922-8e86-4fa4-9ac9-595158122ea0" name="Default Changelist" comment="" />
+      <created>1571433190568</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1571433190568</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Recognizer/Recognizer.py</url>
+          <line>196</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Recognizer/Recognizer.py</url>
+          <line>197</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
