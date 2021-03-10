@@ -1,0 +1,8 @@
+dlib
+keras
+tensorflow-gpu
+opencv
+imutils
+numpy
+pickle
+scipy

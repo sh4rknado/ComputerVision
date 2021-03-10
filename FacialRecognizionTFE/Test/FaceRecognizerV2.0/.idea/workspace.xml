@@ -1,0 +1,394 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="3294d42b-ddd4-4fe2-b08c-645c92cd68d6" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/FaceRecognizer.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/FaceRecognizer.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/R_User_Library.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/R_User_Library.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/IMAGE_DB/inconnu/atikh-bana-2c0midsqke0-unsplash.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Data/IMAGE_DB/inconnu/atikh-bana-2c0midsqke0-unsplash.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/IMAGE_DB/inconnu/facial-philadelphia.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Data/IMAGE_DB/inconnu/facial-philadelphia.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/IMAGE_DB/inconnu/inconnu4.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Data/IMAGE_DB/inconnu/inconnu4.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/IMAGE_DB/inconnu/test01.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Data/IMAGE_DB/inconnu/test01.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/IMAGE_DB/inconnu/vieux.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Data/IMAGE_DB/inconnu/vieux.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Pickle/data.Pickle" beforeDir="false" afterPath="$PROJECT_DIR$/Data/Pickle/data.Pickle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Pickle/faces.Pickle" beforeDir="false" afterPath="$PROJECT_DIR$/Data/Pickle/faces.Pickle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Pickle/self._train_embs.npy" beforeDir="false" afterPath="$PROJECT_DIR$/Data/Pickle/self._train_embs.npy" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/face_detection_model/openface_nn4.small2.v1.h5" beforeDir="false" afterPath="$PROJECT_DIR$/Data/face_detection_model/openface_nn4.small2.v1.h5" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FaceDetector/ExtractFaces.py" beforeDir="false" afterPath="$PROJECT_DIR$/FaceDetector/ExtractFaces.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FaceDetector/Model.py" beforeDir="false" afterPath="$PROJECT_DIR$/FaceDetector/Model.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FaceDetector/Recognizer.py" beforeDir="false" afterPath="$PROJECT_DIR$/FaceDetector/Recognizer.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FaceDetector/align.py" beforeDir="false" afterPath="$PROJECT_DIR$/FaceDetector/align.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FaceDetector/utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/FaceDetector/utils.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Helper/Serializer.py" beforeDir="false" afterPath="$PROJECT_DIR$/Helper/Serializer.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Helper/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/Helper/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/IMAGE_DB_RESULT/COCO10.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/IMAGE_DB_RESULT/COCO10.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/IMAGE_DB_RESULT/COCO13.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IMAGE_DB_RESULT/COCO16.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IMAGE_DB_RESULT/COCO17.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IMAGE_DB_RESULT/COCO18.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IMAGE_DB_RESULT/COCO20.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IMAGE_DB_RESULT/COCO3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/IMAGE_DB_RESULT/COCO3.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/IMAGE_DB_RESULT/COCO4.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/IMAGE_DB_RESULT/COCO4.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/IMAGE_DB_RESULT/COCO5.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/IMAGE_DB_RESULT/COCO5.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/IMAGE_DB_RESULT/JOJO1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IMAGE_DB_RESULT/JOJO15.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/IMAGE_DB_RESULT/JOJO15.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/IMAGE_DB_RESULT/JOJO19.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/IMAGE_DB_RESULT/JOJO19.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/IMAGE_DB_RESULT/JOJO2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IMAGE_DB_RESULT/JOJO21.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IMAGE_DB_RESULT/JOJO6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IMAGE_DB_RESULT/JOJO7.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IMAGE_DB_RESULT/inconnu11.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/IMAGE_DB_RESULT/inconnu11.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/IMAGE_DB_RESULT/inconnu12.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/IMAGE_DB_RESULT/inconnu12.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/IMAGE_DB_RESULT/inconnu14.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IMAGE_DB_RESULT/inconnu22.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/IMAGE_DB_RESULT/inconnu22.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/IMAGE_DB_RESULT/inconnu8.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IMAGE_DB_RESULT/inconnu9.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IMAGE_TO_DETECT/VLCC_Single_Facial_Kit_Amazon_Benefit_01_-_Copy.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/IMAGE_TO_DETECT/VLCC_Single_Facial_Kit_Amazon_Benefit_01_-_Copy.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/IMAGE_TO_DETECT/atikh-bana-2c0midsqke0-unsplash.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/IMAGE_TO_DETECT/atikh-bana-2c0midsqke0-unsplash.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/IMAGE_TO_DETECT/facial-philadelphia.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/IMAGE_TO_DETECT/facial-philadelphia.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/IMAGE_TO_DETECT/home.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/IMAGE_TO_DETECT/home.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/IMAGE_TO_DETECT/test01.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/IMAGE_TO_DETECT/test01.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/IMAGE_TO_DETECT/vieux.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/IMAGE_TO_DETECT/vieux.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/main.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="20" column="2" selection-start-line="19" selection-start-column="2" selection-end-line="20" selection-end-column="2" />
+              <folding>
+                <element signature="e#0#49#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/FaceDetector/align.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2775">
+              <caret line="187" selection-start-line="187" selection-end-line="187" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/FaceDetector/Recognizer.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="367">
+              <caret line="221" column="53" selection-start-line="221" selection-start-column="53" selection-end-line="221" selection-end-column="53" />
+              <folding>
+                <element signature="e#0#21#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/FaceDetector/ExtractFaces.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="660">
+              <caret line="50" column="98" selection-start-line="50" selection-end-line="51" />
+              <folding>
+                <element signature="e#0#43#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>color</find>
+      <find>df_train</find>
+      <find>test_image</find>
+      <find>show_image</find>
+      <find>train_paths</find>
+      <find>_align_face</find>
+      <find>format</find>
+      <find>_formated_data</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>_color</replace>
+      <replace>data</replace>
+      <replace>image</replace>
+      <replace>image_copy</replace>
+    </replaceStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/FaceDetector/extract_faces.py" />
+        <option value="$PROJECT_DIR$/Helper/PATH.py" />
+        <option value="$PROJECT_DIR$/FaceDetector/ExtractFaces.py" />
+        <option value="$PROJECT_DIR$/Helper/Serializer.py" />
+        <option value="$PROJECT_DIR$/main.py" />
+        <option value="$PROJECT_DIR$/FaceDetector/Recognizer.py" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="-2" />
+    <option name="width" value="1924" />
+    <option name="height" value="1054" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="FaceRecognizer" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FaceRecognizer" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="FaceRecognizer" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FaceRecognizer" type="462c0819:PsiDirectoryNode" />
+              <item name="IMAGE_TO_DETECT" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../FaceSpeed" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/FaceDetector" />
+      <recent name="$PROJECT_DIR$/Helper" />
+      <recent name="$PROJECT_DIR$" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/IMAGE_TO_DETECT" />
+      <recent name="$PROJECT_DIR$/Data" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="FaceRecognizer" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.main" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="3294d42b-ddd4-4fe2-b08c-645c92cd68d6" name="Default Changelist" comment="" />
+      <created>1570361427170</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1570361427170</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-2" y="0" width="1924" height="1054" extended-state="7" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.122732125" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.26702702" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.38702703" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="8" visible="true" weight="0.23891892" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Python Console" order="10" weight="0.32972974" />
+      <window_info anchor="bottom" id="Thumbnails" order="11" weight="0.32972974" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="R Graphics" order="3" />
+      <window_info anchor="right" id="R Packages" order="4" />
+    </layout>
+    <layout-to-restore>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.12059765" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.51891893" />
+      <window_info anchor="bottom" id="Debug" order="3" visible="true" weight="0.20432432" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.3708108" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Python Console" order="10" weight="0.32972974" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="R Graphics" order="3" />
+      <window_info anchor="right" id="R Packages" order="4" />
+    </layout-to-restore>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/pydevd.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="1740" selection-start-line="1740" selection-end-line="1740" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.PyCharmCE2018.3/system/python_stubs/-1247971762/builtins.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="3698" column="8" selection-start-line="3698" selection-start-column="8" selection-end-line="3698" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FaceDetector/utils.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Helper/Colors.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Helper/PATH.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="45" lean-forward="true" selection-start-line="17" selection-end-line="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Helper/Serializer.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="17" lean-forward="true" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
+          <folding>
+            <element signature="e#0#13#0" expanded="true" />
+            <element signature="e#241#284#1" />
+            <element signature="e#328#580#0" />
+            <element signature="e#586#618#1" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FaceDetector/Model.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FaceDetector/recognizer_DNN.py" />
+    <entry file="file://$PROJECT_DIR$/IMAGE_DB_RESULT/JOJO7.jpg" />
+    <entry file="file://$PROJECT_DIR$/IMAGE_DB_RESULT/JOJO2.jpg" />
+    <entry file="file://$PROJECT_DIR$/IMAGE_DB_RESULT/inconnu22.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/IMAGE_DB_RESULT/COCO13.jpg" />
+    <entry file="file://$PROJECT_DIR$/IMAGE_DB_RESULT/COCO17.jpg" />
+    <entry file="file://$PROJECT_DIR$/IMAGE_DB_RESULT/COCO2.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="20" column="2" selection-start-line="19" selection-start-column="2" selection-end-line="20" selection-end-column="2" />
+          <folding>
+            <element signature="e#0#49#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FaceDetector/align.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2775">
+          <caret line="187" selection-start-line="187" selection-end-line="187" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FaceDetector/ExtractFaces.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="660">
+          <caret line="50" column="98" selection-start-line="50" selection-end-line="51" />
+          <folding>
+            <element signature="e#0#43#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FaceDetector/Recognizer.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="367">
+          <caret line="221" column="53" selection-start-line="221" selection-start-column="53" selection-end-line="221" selection-end-column="53" />
+          <folding>
+            <element signature="e#0#21#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
