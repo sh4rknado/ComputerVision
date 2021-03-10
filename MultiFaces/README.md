@@ -1,9 +1,16 @@
 # MultiFaces Comparator
 
-## Face detector
-This project permit the measure of perform Face Detector
+## Developper Info
 
-Face Detector used :
+    Author : Jordan Bertieaux
+    Version: 1.0
+    OS : archlinux
+    Kernel : 5.4.11-arch1-1 #1 SMP PREEMPT Sun, 12 Jan 2020 12:15:27 +0000 x86_64 GNU/Linux
+    Python version 3
+
+## Face detector
+
+This project permit the measure of perform Face Detector
 
     - Haarcascade (from OpenCV)
         - haarcascade_frontalface_default.xml
@@ -20,11 +27,6 @@ Face Detector used :
 
     - TinyFace (Custom Method)
         - Model : weight converted (hr_res101.mat)
-
-### Face detector do not use :
-
-    Haarcascade from haarcascade because a lot of false positives
-    MMOD from dlib because it's very slow
 
 ### How to use FaceDetector class ?
 
@@ -64,6 +66,7 @@ Face Detector used :
                 Show_img(vframe)
                 vframe.clear()
 
+
 ## TINY RESULT :
 
 ![alt text](https://github.com/SH4RKNANDO/MultiFaces/blob/master/IMG_RESULT/Result_1.jpg "Logo Title Text 1")
@@ -78,9 +81,14 @@ Face Detector used :
 ![alt text](https://github.com/SH4RKNANDO/MultiFaces/blob/master/IMG_RESULT/Result_22.jpg "Logo Title Text 1")
 
 
-## Requirements
+### Face detector do not use
 
-Python library
+- Haarcascade from haarcascade has a lot of false positives
+
+- MMOD from dlib because it's very slow
+
+
+## Requirements Python Library
 
     dlib
     keras
@@ -147,18 +155,9 @@ Library installation PyImageSearch with ubuntu 18.04
 https://www.pyimagesearch.com/2019/01/30/ubuntu-18-04-install-tensorflow-and-keras-for-deep-learning/
 
 
-## TODO:
+## TODO
 
     - Optimizing TinyFace
-
-
-## Developper Info
-
-    Author : Jordan Bertieaux
-    Version: 1.0
-    OS : archlinux
-    Kernel : 5.4.11-arch1-1 #1 SMP PREEMPT Sun, 12 Jan 2020 12:15:27 +0000 x86_64 GNU/Linux
-    Python version 3
 
 ## Thanks
 
